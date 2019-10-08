@@ -172,7 +172,7 @@ WV_DRM::WV_DRM(WV_KEYSYSTEM ks, const char* licenseURL, const AP4_DataBuffer &se
     }
   }
 
-  Log(SSD_HOST::LL_DEBUG, "Successful instanciated deviceUniqueIdSize: %ld,systemId: %s security-level: %s", strDeviceId.size(), strSystemId.c_str(), strSecurityLevel.c_str());
+  //Log(SSD_HOST::LL_DEBUG, "Successful instanciated deviceUniqueIdSize: %ld,systemId: %s security-level: %s", strDeviceId.size(), strSystemId.c_str(), strSecurityLevel.c_str());
 
   if (license_url_.find('|') == std::string::npos)
   {
