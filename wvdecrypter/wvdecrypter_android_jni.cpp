@@ -145,14 +145,14 @@ WV_DRM::WV_DRM(WV_KEYSYSTEM ks, const char* licenseURL, const AP4_DataBuffer &se
     delete media_drm_, media_drm_ = nullptr;
     return;
   }
-
+/*
   std::vector<char> strDeviceId = media_drm_->getPropertyByteArray("deviceUniqueId");
   xbmc_jnienv()->ExceptionClear();
   std::string strSecurityLevel = media_drm_->getPropertyString("securityLevel");
   xbmc_jnienv()->ExceptionClear();
   std::string strSystemId = media_drm_->getPropertyString("systemId");
   xbmc_jnienv()->ExceptionClear();
-
+*/
 
   if (key_system_ == WIDEVINE)
   {
